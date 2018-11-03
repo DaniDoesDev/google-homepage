@@ -3,6 +3,26 @@ h1 {
     text-align: center;
     font-size: 80px;
     font-weight: 600;
+    padding: 0;
+    margin: 10px;
+  }
+  .search {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .search input {
+    height: 25px;
+    width: 450px;
+  }
+  button {
+    font-family: "helvetica", "san-serif";
+    font-size: 15px;
+    margin: 15;
+    padding: 8px 15px;
+    background-color: #F5F5F5;
+    color: #606060;
+    font-weight: bold;
   }
   span.g {
     color: #4285F4;
@@ -16,15 +36,16 @@ h1 {
   span.l {
     color: #0F9D58;
   }
-  
   a {
     display: block-inline;
   }
   .footer.left{
     display: block;
-    text-align: left;
+    text-align: "bottom left";
   }
   .footer.right{
     display: block;
-    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
