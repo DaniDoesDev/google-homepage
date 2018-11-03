@@ -1,4 +1,10 @@
-span.g {
+h1 {
+    font-family: "helvetica", "san-serif";
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+  }
+  span.g {
     color: #4285F4;
   }
   span.o {
@@ -9,4 +15,16 @@ span.g {
   }
   span.l {
     color: #0F9D58;
+  }
+  
+  a {
+    display: block-inline;
+  }
+  .footer.left{
+    display: block;
+    text-align: left;
+  }
+  .footer.right{
+    display: block;
+    text-align: right;
   }
