@@ -17,12 +17,13 @@ h1 {
   }
   button {
     font-family: "helvetica", "san-serif";
-    font-size: 15px;
+    font-size: 13px;
     margin: 15;
-    padding: 8px 15px;
+    padding: 9px 15px;
     background-color: #F5F5F5;
     color: #606060;
     font-weight: bold;
+    border: none;
   }
   span.g {
     color: #4285F4;
@@ -36,16 +37,41 @@ h1 {
   span.l {
     color: #0F9D58;
   }
-  a {
-    display: block-inline;
-  }
-  .footer.left{
-    display: block;
-    text-align: "bottom left";
-  }
-  .footer.right{
-    display: block;
-    position: absolute;
+  .footer {
+    position: fixed;
     bottom: 0;
+    background-color: #F5F5F5;
+    padding: 20px;
+    width: 100%;
+  }
+  a.lefta {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+  a.leftb {
+    position: fixed;
+    left: 107px;
+    bottom: 0;
+  }
+  a.righta {
+    position: fixed;
+    right: 144px;
+    bottom: 0;
+  }
+  a.rightb {
+    position: fixed;
+    right: 77px;
+    bottom: 0;
+  }
+  a.rightc {
+    position: fixed;
     right: 0;
+    bottom: 0;
+  }
+  a {
+    color: #484848;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
   }
