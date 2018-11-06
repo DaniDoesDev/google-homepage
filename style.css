@@ -6,6 +6,23 @@ h1 {
     padding: 0;
     margin: 10px;
   }
+  a.toprighta {
+    position: fixed;
+    right: 270px;
+    top: 0;
+  }
+  a.toprightb {
+    position: fixed;
+    right: 200px;
+    top: 0;
+  }
+  img.toprightc {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 180px;
+    height:30px;
+  }
   .search {
     text-align: center;
     margin-bottom: 0;
@@ -74,4 +91,7 @@ h1 {
     text-decoration: none;
     padding: 10px;
     position: relative;
+  }
+  a:hover {
+    text-decoration: underline;
   }
